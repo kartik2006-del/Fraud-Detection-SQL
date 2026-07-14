@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Fraud Detection Analytics using SQL
 
 ## An end-to-end SQL project that analyzes financial transactions, detects suspicious activities, and applies advanced SQL techniques to solve real world fraud analysis problems
