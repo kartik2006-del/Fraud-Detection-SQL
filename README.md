@@ -4,13 +4,13 @@
 ## An end-to-end SQL project that analyzes financial transactions, detects suspicious activities, and applies advanced SQL techniques to solve real world fraud analysis problems
 
 # Project Overview
-* Financial fraud is a major challenge for banks and digital payment platforms, making it important to identify suspicious transactions as early as possible. In this project, I analyzed a financial transaction dataset using PostgreSQL to explore transaction patterns, detect fraudulent activities, and build a rule-based risk scoring system
+* Financial fraud is a major challenge for banks and digital payment platforms, making it important to identify suspicious transactions as early as possible. In this project, I analyzed a financial transaction dataset using PostgreSQL to explore transaction patterns, detect fraudulent activities, and build a rule-based risk scoring system.
 
-* The project covers the complete analysis process, including data exploration, fraud pattern analysis, Risk Scoring & Classification, anomaly detection using Z-Score, and SQL query optimization. Along the way, I applied advanced SQL concepts such as CTEs, Window Functions, Views, Materialized Views, Indexes, and EXPLAIN ANALYZE to solve practical business problems and improve query performance
+* The project covers the complete analysis process, including data exploration, fraud pattern analysis, Risk Scoring & Classification, anomaly detection using Z-Score, and SQL query optimization. Along the way, I applied advanced SQL concepts such as CTEs, Window Functions, Views, Materialized Views, Indexes, and EXPLAIN ANALYZE to solve practical business problems and improve query performance.
 
 # Project Statement
 
-Financial institutions process millions of transactions every day, making it difficult to identify fraudulent activities manually. Detecting suspicious transactions quickly is essential to reduce financial losses and improve security. The objective of this project is to analyze financial transaction data using SQL, identify fraud patterns, calculate transaction risk scores, detect anomalies, and generate business insights that can support fraud investigation
+Financial institutions process millions of transactions every day, making it difficult to identify fraudulent activities manually. Detecting suspicious transactions quickly is essential to reduce financial losses and improve security. The objective of this project is to analyze financial transaction data using SQL, identify fraud patterns, calculate transaction risk scores, detect anomalies, and generate business insights that can support fraud investigation.
 
 # Dataset Information
 
@@ -181,3 +181,39 @@ Fraud-Detection-SQL/
 ## Query Optimization with EXPLAIN ANALYZE
 ![Query Optimization with EXPLAIN ANALYZE](explain_analyze.png)
 > **Note:** Demonstrates query optimization by using an index and validating its performance with EXPLAIN ANALYZE, resulting in an Index Scan for faster data retrieval
+
+# Key Insights
+
+- TRANSFER transactions showed the highest fraud rate among all transaction types.
+- CASH_OUT transactions also contributed significantly to fraudulent activity.
+- Most transactions were classified as **Low Risk**, while only a small proportion fell into Medium and High Risk categories.
+- Z-Score analysis identified a small number of statistically unusual transactions with exceptionally high amounts.
+- Indexing significantly improved query execution performance reducing data retrieval time for filtered queries.
+
+# How to Run
+
+1. Download the dataset.
+2. Import the CSV file into PostgreSQL.
+3. Open the SQL scripts in pgAdmin.
+4. Execute the scripts phase by phase.
+5. Review the generated outputs and screenshots.
+
+# Future Improvements
+
+- Develop an interactive Power BI dashboard for fraud monitoring.
+- Integrate a Machine Learning model to improve fraud prediction.
+- Build a real-time fraud detection pipeline for streaming transactions.
+- Deploy the project as an end-to-end fraud analytics solution.
+
+# Author
+
+Developed by **Kartik Kumar**
+
+Aspiring Machine Learning Engineer
+
+If you'd like to connect, feel free to reach out through GitHub or LinkedIn.
+
+- GitHub: https://github.com/kartik2006-del
+- LinkedIn: https://www.linkedin.com/in/kartik-kumar-b3b5b2249/
+
+⭐ If you found this project useful, consider giving it a star.
